@@ -13,7 +13,21 @@ To write a Python program that defines a function which accepts two values and r
 ## 🧾 Program
 
 Add code Here
-
+def result(a,b):
+        return a%b
+try:
+    a=int(input())
+    b=int(input())    
+    
+    if b==0:
+        print("a is not allowed to divide by b")
+    else:
+        modulo=result(a,b)
+        print("modulo is",modulo)
+except value:        
+           print("please enter the correct value")
 ## Output
+![image](https://github.com/user-attachments/assets/6154b4c0-d1b3-41cc-9c1b-b346b34d96bf)
 
 ## Result
+Thus, the python program was executed successfully
